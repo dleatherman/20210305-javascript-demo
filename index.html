@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Javascript Demo</title>
+   <!-- Google Font -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="normalize.css">
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+   <div id="cursor"></div>
+
+   <div id="answers" class="hidden">
+      <h1>Welcome, <span id="name">friend</span>!</h1>
+      <p>Your favorite animal: <span id="animal"></span></p>
+   </div>
+
+   <button id="ask">Answer questions</button>
+
+   <script src="script.js"></script>
 </body>
 </html>
